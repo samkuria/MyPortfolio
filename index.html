@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <div class="logo"> Samuel Kuria</div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Hi, I'm Samuel Kuria</h1>
+                <p>I am a Software Developer & Designer passionate about building impactful digital experiences.</p>
+                <a href="#projects" class="btn">View My Work</a>
+            </div>
+        </section>
+        <section id="about" class="about">
+            <div class="about-container">
+                <div class="about-image"><img src="images/profile.jpeg" alt="Samuel Kuria"></div>
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <P>I'm a passionate <strong>Software Developer</strong> and <strong>Designer</strong> focused on building intuitive, visually appealing and user-friendly digtal experiences. <br/><br/> My work blends creativity and functionality - I love crafting solutions that not only work efficirnty but also look great. <br/><br/> I'm currently exploring AI-driven interfaces and building full-stack applications.</P>
+                    <a href="#contact" class="btn">Get In Touch</a>
+                </div>
+            </div>
+        </section>
+        
+        <section class="projects" id="projects">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                <div class="project-card"><a href="projects/devchatbot.html"><img src="images/DevChatBot.png" alt="DevChatBot"><h3>DevChatBot</h3></a></div>
+                <div class="project-card"><a href="projects/invex.html"><img src="images/Invex.png" alt="Invex"><h3>Invex</h3></a></div>
+                <div class="project-card"><a href="projects/pearltrack.html"><img src="images/Pearl Track.png" alt="PearlTrack"><h3>PearlTrack</h3></a></div>
+            </div>
+            <a href="Resume/Resume.pdf" download class="btn-resume">Download Resume</a>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2>Contact Me</h2>
+            <p>If you'd like to work together, feel free to reach out!</p>
+            <div class="contact-container">
+                <form id="contact-form">
+                    <input type="text" name="name" placeholder="Your Name" required/>
+                    <input type="email" name="email" placeholder="Your Email" required/>
+                    <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p> Email: <a href="mailto:Kuria5614@gmail.com">Kuria5614@gmail.com</a></p>
+                    <p> Phone: <a href="tel:+254722536639">+254 722 536 639</a></p>
+                    <p>LinkedIn: <a href="https://www.linkedin.com/in/samuel-kuria-242b84303/">linkedin.com/in/samuel-kuria-242b84303/</a></p>
+                    <p>GitHub: <a href="https://github.com/samkuria">github.com/samkuria/</a></p>
+                </div>
+            </div>
+        </section>
+        <script src="js/main.js"></script>
+    </body>
+</html>
