@@ -11,10 +11,11 @@
     const message = form.message.value;
 
     try {
-      const res = await fetch('http://localhost:5000/send', {
+      const res = await fetch('https://formspree.io/f/xbdwrvlq', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ name, email, message }),
+          
       });
 
       const data = await res.json();
